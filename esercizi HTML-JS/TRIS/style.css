@@ -1,0 +1,23 @@
+input[type="button"]{
+	background: transparent;
+	border:1px solid transparent;
+	width: 0px;
+	width: 100px;
+	height: 100px;
+	color: transparent;
+	font-size: 20px;
+
+}
+#casella1, #casella4,#casella7{
+	border-right: 1px solid #333;
+}
+#casella3, #casella6,#casella9{
+	border-left: 1px solid #333; 
+}
+input[type="button"]:focus{
+	outline: none;
+}
+hr{
+	width: 315px;
+	margin: 0;
+}

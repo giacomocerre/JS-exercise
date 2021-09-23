@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>	
+<head>
+	<title>SVEGLIA</title>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="imposta">
+		<!-- corrente -->
+		<h1>ORA CORRENTE</h1>
+		<input id="ora_corr" placeholder="ORE" type="text" name="oracorr">
+		<input id="min_corr" placeholder="MIN" type="text" name="mincorr">
+		<input id="imp_ora_corr" class="btn" type="button" name="corrente" value="imposta">
+		<!-- imposta ora -->
+		<input id="ora_read" readonly="readonly" type="text" name="oraread">
+		<!-- ERRORE IMPOSTA-->
+		<span id="messaggio_imposta"></span>
+		<!-- allarme -->
+		<h1>ALLARME</h1><br/>
+		<input id="ora_all" placeholder="ORE" type="text" name="orall">
+		<input id="min_all"  placeholder="MIN" type="text" name="minall">
+		<!-- imposta allarme -->
+		<input id="imp_ora_all" type="button" class="btn" name="allarme" value="imposta">
+		<input id="all_read" readonly="readonly" type="text" name="svegliaread">
+		<!-- ERRORE ALLARME-->
+		<span id="messaggio_all"></span>
+		<!-- avanza -->
+		<h1>AVANZA</h1><br/>
+		<input id="avanza" type="button" name="avanza" class="btn" value="avanza">
+		<!-- reset --> ---
+		<input id="reset" class="btn" type="button" name="reset" value="reset">
+		<!-- ERRORE AVANZA-->
+		<span id="messaggio_avanza"></span>
+</div>
+	<!-- OUTPUT -->
+<div id="output">
+	<input id="sveglia" readonly="readonly" type="text" name="readallarm">
+</div>
+	<!-- reset -->
+
+
+</body>
+</html>

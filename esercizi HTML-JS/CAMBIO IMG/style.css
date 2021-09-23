@@ -1,0 +1,31 @@
+body{
+	background-color: #333;
+	text-align: center;
+}
+#content{
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#content img{
+	width: 100%;
+}
+h1{
+	color: #f6f6f6;
+	font-family: "Helvetica neue", sans-serif;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	text-decoration: underline;
+}
+input{
+	background: #f6f6f6;
+	color: #333;
+	border-radius:15px;
+	border:none;		
+	width: 100%;
+	font-size: 20px;
+	margin: 20px 0;
+}
+input:focus	{
+	outline: none;
+}

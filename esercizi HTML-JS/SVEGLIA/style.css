@@ -1,0 +1,50 @@
+body{
+	background: #f6f6f6;
+	text-align: center;
+	font-family: "helvetica neue", sans-serif;
+}
+input{
+	background: transparent;
+	border-radius:20px;
+	border-style: none;
+	box-shadow: 2px 3px 5px 2px #ccc;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	text-transform: uppercase;	
+	font-family: "helvetica neue", sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+	margin: 5px;
+}
+input:focus{
+	outline: none;
+}
+input[readonly]{
+	font-weight: bold;
+}
+.btn{
+	background: #333;
+	color: #f6f6f6;
+	box-shadow: none;
+}
+div{
+    width: 50%;
+    margin-right: 0;
+    float: left;
+}
+#output{
+	float: right;
+    clear: both;
+    position: fixed;
+    left: 50%;
+    top: 30%;
+}
+#output input{
+	border-radius: 20px;
+	width: 90%;
+}
+span{
+	color: red;
+	display: block;
+}
